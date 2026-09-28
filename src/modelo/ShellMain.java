@@ -38,7 +38,6 @@ class Shell {
         }
     }
 
-    // Método auxiliar privado para comparar dos elementos
     private static boolean less(Comparable v, Comparable w) {
         return v.compareTo(w) < 0;
     }
